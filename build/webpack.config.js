@@ -62,7 +62,6 @@ config.module.rules.push({
       plugins: [
         'babel-plugin-transform-class-properties',
         'babel-plugin-syntax-dynamic-import',
-        ['import', { libraryName: 'antd', style: 'css' }],
         [
           'babel-plugin-transform-runtime',
           {

@@ -17,6 +17,7 @@ const config = {
       inProjectSrc('normalize'),
     ],
     main: [
+      'babel-polyfill',
       inProjectSrc(project.main),
     ],
   },
